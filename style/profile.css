@@ -234,43 +234,15 @@
   transition: all 0.5s ease-in-out;
 }
 
-.popup__inner::-webkit-scrollbar {
-  width: 6px;
-}
-
-.popup__inner::-webkit-scrollbar-track {
-  background: #1F2126;
-  border-radius: 0px 8px 8px 0px;
-}
-
-.popup__inner::-webkit-scrollbar-thumb {
-  background: #81CB3D;
-  border-radius: 0px 8px 8px 0px;
-}
-
-.modal::-webkit-scrollbar {
-  width: 6px;
-}
-
-.modal::-webkit-scrollbar-track {
-  background: #706d6d;
-  border-radius: 0px 8px 8px 0px;
-}
-
-.modal::-webkit-scrollbar-thumb {
-  background: #81CB3D;
-  border-radius: 0px 8px 8px 0px;
-}
-
 .popup__close {
   position: fixed;
-  top: 20px;
+  top: 5px;
   right: 30px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: none;
-  color: #fcfbfb;
+  color: #81CB3D;
 }
 
 .popup__close:hover {
