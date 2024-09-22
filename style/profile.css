@@ -224,7 +224,6 @@
 }
 
 .popup__inner {
-  height: 100%;
   overflow-y: auto;
   margin: auto;
   background: #3d4042;
