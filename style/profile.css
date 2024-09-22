@@ -224,8 +224,6 @@
 }
 
 .popup__inner {
-  overflow-y: auto;
-  margin: auto;
   background: #3d4042;
   border-radius: 8px;
   position: relative;
