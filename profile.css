@@ -225,7 +225,6 @@
 }
 
 .popup__inner {
-  overflow-y: auto;
   margin: auto;
   background: #3d4042;
   border-radius: 8px;
@@ -233,34 +232,6 @@
   display: flex;
   justify-content: center;
   transition: all 0.5s ease-in-out;
-}
-
-.popup__inner::-webkit-scrollbar {
-  width: 6px;
-}
-
-.popup__inner::-webkit-scrollbar-track {
-  background: #1F2126;
-  border-radius: 0px 8px 8px 0px;
-}
-
-.popup__inner::-webkit-scrollbar-thumb {
-  background: #81CB3D;
-  border-radius: 0px 8px 8px 0px;
-}
-
-.modal::-webkit-scrollbar {
-  width: 6px;
-}
-
-.modal::-webkit-scrollbar-track {
-  background: #706d6d;
-  border-radius: 0px 8px 8px 0px;
-}
-
-.modal::-webkit-scrollbar-thumb {
-  background: #81CB3D;
-  border-radius: 0px 8px 8px 0px;
 }
 
 .popup__close {
