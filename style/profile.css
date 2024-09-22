@@ -1,6 +1,6 @@
-/* HEAD */
+
 .profile__head {
-  background-image: url(../source/bg/dark-wall.png);
+  background-image: url(/source/bg/dark-wall.png);
   box-shadow: -1px 1px 17px 0px #1F2126;
   border-radius: 8px;
   padding: 1.5em;
@@ -11,16 +11,17 @@
   align-items: center;
 }
 
+
 .head__text {
   display: flex;
   flex-direction: column;
-  padding: 3em;
+  padding: 0 3em;
   gap: 2em;
 }
 
 .head__text_about>h1>span {
-  /* font-family: "Righteous", sans-serif;
-  */color: #81CB3D; 
+  /* font-family: "Righteous", sans-serif;*/
+  color: #81CB3D; 
   font-size: 1.5em;
 }
 
@@ -34,8 +35,6 @@
   display: flex;
   align-items: center;
 }
-
-/* HEAD */
 
 .page--profile {
   margin: auto;
@@ -53,14 +52,12 @@
   padding-right: 0.5em;
 }
 
-
 .profile__box {
   margin: 0 auto;
   background: #2d2d2d;
   border-radius: 8px;
   text-align: center;
 }
-
 
 /* SKILLS */
 
@@ -81,7 +78,7 @@
 }
 
 .skills:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .skills__box {
@@ -168,19 +165,15 @@
 }
 
 .skills-2 {
-  /* background-image: url(/source/bg/dark-wall.png); */
   border-radius: 8px;
   display: flex;
   gap: 2em;
 }
 
-/* SKIILS */
-
 
 /* BUTTONS */
 
 .profile__buttons {
-  /* background-image: url(/source/bg/dark-wall.png); */
   border-radius: 8px;
   padding: 2em;
   display: flex;
@@ -224,6 +217,9 @@
 }
 
 .popup__inner {
+  max-height: 80vh; 
+  overflow-y: scroll;
+  margin: auto;
   background: #3d4042;
   border-radius: 8px;
   position: relative;
@@ -232,8 +228,36 @@
   transition: all 0.5s ease-in-out;
 }
 
+.popup__inner::-webkit-scrollbar {
+  width: 6px;
+}
+
+.popup__inner::-webkit-scrollbar-track {
+  background: #1F2126;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.popup__inner::-webkit-scrollbar-thumb {
+  background: #81CB3D;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.modal::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal::-webkit-scrollbar-track {
+  background: #706d6d;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: #81CB3D;
+  border-radius: 0px 8px 8px 0px;
+}
+
 .popup__close {
-  position: fixed;
+  position:fixed;
   top: 5px;
   right: 30px;
   transition: all 200ms;
@@ -340,4 +364,3 @@
   height: 150px;
 }
 
-/* BUTTONS */

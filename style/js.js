@@ -13,7 +13,6 @@ function closeModal() {
     modal.style.display = "none";
 }
 
-
 window.setTimeout(function(){
     $('.skill-progress').addClass("go");
   }, 1000);

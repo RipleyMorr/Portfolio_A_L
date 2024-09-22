@@ -4,13 +4,14 @@
 
 html,
 body {
-  background-image: url("../source/bg/cartographer.png");
+  background-image: url("/source/bg/cartographer.png");
   background-color: #1F2126;
   color: #ffffff;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  
 }
 
 label,
@@ -25,7 +26,6 @@ a {
 
 .layout {
   display: grid;
-  /*  overflow: hidden;!!!! */
   grid-template-rows: 50px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -46,7 +46,7 @@ a {
 }
 
 .nav__radio:checked+.page+.nav {
-  background-image: url(../source/bg/dark-wall.png);
+  background-image: url(/source/bg/dark-wall.png);
   box-shadow: -1px 1px 17px 0px #1F2126;
   margin-left: 2em;
   margin-right: 2em;
@@ -65,8 +65,10 @@ a {
   grid-column-end: span 3;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  margin-top: 1em;
   display: flex;
   align-items: start;
+  overflow: hidden;
 }
 
 .nav__radio+.page {
@@ -116,7 +118,7 @@ a {
   }
 
   .skills-2 {
-    flex-direction: column;
+    flex-direction: row;
     padding: 2em;
     gap: 1em;
   }
@@ -169,11 +171,16 @@ a {
     flex-wrap: wrap;
   }
 
+
   .profile__head {
     flex-direction: column;
   }
 
   .carousel__image {
     height: 400px;
+  }
+
+  .skills-2 {
+    flex-direction: column;
   }
 }
