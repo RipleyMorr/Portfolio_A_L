@@ -1,6 +1,6 @@
 /* HEAD */
 .profile__head {
-  background-image: url(/source/bg/dark-wall.png);
+  background-image: url(../source/bg/dark-wall.png);
   box-shadow: -1px 1px 17px 0px #1F2126;
   border-radius: 8px;
   padding: 1.5em;
